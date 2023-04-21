@@ -1,0 +1,95 @@
+[
+  {
+    "duration": 120072,
+    "startPlayTime": 0,
+    "totalEndTime": 0,
+    "audioName": "风.mp3",
+    "isLineAudio": true,
+    "isPointAudio": false,
+    "configVolume": 1.0,
+    "frequency": 0,
+    "pitch": 0.0,
+    "speed": 0.0,
+    "volume": 1.0
+  },
+  {
+    "duration": 120072,
+    "startPlayTime": 0,
+    "totalEndTime": 0,
+    "audioName": "蛐蛐叫.mp3",
+    "isLineAudio": true,
+    "isPointAudio": false,
+    "configVolume": 1.0,
+    "frequency": 0,
+    "pitch": 0.0,
+    "speed": 0.0,
+    "volume": 1.0
+  },
+  {
+    "duration": 120072,
+    "startPlayTime": 0,
+    "totalEndTime": 0,
+    "audioName": "蝉鸣.mp3",
+    "isLineAudio": true,
+    "isPointAudio": false,
+    "configVolume": 1.0,
+    "frequency": 0,
+    "pitch": 0.0,
+    "speed": 0.0,
+    "volume": 1.0
+  },
+  {
+    "duration": 2352,
+    "names": [
+      "近处虫鸣1.mp3",
+      "近处虫鸣2.mp3",
+      "近处虫鸣3.mp3",
+      "近处虫鸣4.mp3",
+      "近处虫鸣5.mp3",
+      "近处虫鸣6.mp3",
+      "近处虫鸣7.mp3"
+    ],
+    "startPlayTime": 0,
+    "totalEndTime": 120072,
+    "isLineAudio": false,
+    "isPointAudio": true,
+    "configVolume": 1.0,
+    "frequency": 14,
+    "pitch": 0.0,
+    "speed": 0.0,
+    "volume": 1.0
+  },
+  {
+    "duration": 19800,
+    "names": [
+      "风吹树声1.mp3",
+      "风吹树声2.mp3"
+    ],
+    "startPlayTime": 0,
+    "totalEndTime": 120072,
+    "isLineAudio": false,
+    "isPointAudio": true,
+    "configVolume": 1.0,
+    "frequency": 2,
+    "pitch": 0.0,
+    "speed": 0.0,
+    "volume": 1.0
+  },
+  {
+    "duration": 28080,
+    "names": [
+      "风吹草1.mp3",
+      "风吹草2.mp3",
+      "风吹草3.mp3"
+    ],
+    "startPlayTime": 0,
+    "totalEndTime": 120072,
+    "isLineAudio": false,
+    "isPointAudio": true,
+    "configVolume": 1.0,
+    "frequency": 3,
+    "pitch": 0.0,
+    "speed": 0.0,
+    "volume": 1.0
+  }
+]
