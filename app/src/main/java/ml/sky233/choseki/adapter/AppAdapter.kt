@@ -9,6 +9,7 @@ import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
 import android.widget.Toast
+import ml.sky233.choseki.util.ViewUtils.addTouchScale
 import androidx.recyclerview.widget.RecyclerView
 import ml.sky233.choseki.R
 import ml.sky233.choseki.bean.AppObject
@@ -34,7 +35,7 @@ class AppAdapter(var mContext: Context, private val mPublicArray: ArrayList<AppO
     @SuppressLint("RecyclerView", "ClickableViewAccessibility")
     override fun onBindViewHolder(vh: RecyclerView.ViewHolder, position: Int) {
         val holder = vh as ItemHolder
-        ViewUtils.addTouchScale(holder.itemView)
+        vh.itemView.addTouchScale()
         holder.tv_title.text = mPublicArray[position].title
         holder.iv_img.setImageResource(mPublicArray[position].icon)
         holder.itemView.setOnClickListener { v: View? ->

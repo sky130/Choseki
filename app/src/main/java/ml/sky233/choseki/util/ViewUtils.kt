@@ -7,8 +7,8 @@ import android.widget.TextView
 
 object ViewUtils {
     @SuppressLint("ClickableViewAccessibility")
-    fun addTouchScale(view: View) {
-        view.setOnTouchListener { v: View, event: MotionEvent ->
+    fun View.addTouchScale() {
+        setOnTouchListener { v: View, event: MotionEvent ->
             val scale = 0.9f
             val duration: Long = 150
             when (event.action) {
