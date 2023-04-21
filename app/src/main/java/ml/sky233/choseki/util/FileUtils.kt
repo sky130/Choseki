@@ -77,7 +77,7 @@ object FileUtils {
                 return res
             }
             lateinit var buffer: ByteArray
-            var length: Int
+            var length: Int = 0
             FileInputStream(filename).use {
                 length = it.available()
                 buffer = ByteArray(length)
