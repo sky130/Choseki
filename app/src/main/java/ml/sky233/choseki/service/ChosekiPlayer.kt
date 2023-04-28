@@ -4,8 +4,10 @@ import android.content.res.AssetManager
 import android.media.MediaPlayer
 import android.media.SoundPool
 import com.google.gson.Gson
-import ml.sky233.choseki.MainApplication.Companion.context
+import ml.sky233.choseki.application.MainApplication.Companion.context
 import ml.sky233.choseki.manager.ThreadPoolManager
+import ml.sky233.choseki.util.FileUtils
+import java.io.InputStream
 
 class ChosekiPlayer(json: String) {
     private val mMediaPlayerList = ArrayList<MediaPlayer>()
@@ -40,6 +42,8 @@ class ChosekiPlayer(json: String) {
             }
         }
     }
+
+    constructor(stream: InputStream) : this(FileUtils.getFileText(stream))
 
     fun startPlay() {
         isPlaying = true
