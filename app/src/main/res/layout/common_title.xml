@@ -14,7 +14,6 @@
             android:layout_marginBottom="15dp"
             android:textColor="@color/green"
             android:text="@string/app_name"
-            android:textStyle="bold"
             android:textSize="18sp"/>
     </LinearLayout>
 </merge>
