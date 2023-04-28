@@ -11,8 +11,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Choseki"
-        android:name=".MainApplication"
+        android:name=".application.MainApplication"
         tools:targetApi="31">
+        <service android:name=".service.PlayerService"/>
         <activity
             android:name=".MainActivity"
             android:exported="true">
