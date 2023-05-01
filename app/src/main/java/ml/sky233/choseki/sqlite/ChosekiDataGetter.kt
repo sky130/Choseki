@@ -50,9 +50,10 @@ object ChosekiDataGetter {
             val name = cursor.getString(cursor.getColumnIndex("name"))
             val packageId = cursor.getInt(cursor.getColumnIndex("package_id"))
             val version = cursor.getInt(cursor.getColumnIndex("version"))
+            val description = cursor.getString(cursor.getColumnIndex("description"))
             val icon = cursor.getString(cursor.getColumnIndex("icon"))
             val isEnable = cursor.getInt(cursor.getColumnIndex("isEnable")) != 0
-            packages.add(Package(id, name, packageId, version, icon, isEnable))
+            packages.add(Package(id, name, packageId, description, version, icon, isEnable))
         }
     }
 

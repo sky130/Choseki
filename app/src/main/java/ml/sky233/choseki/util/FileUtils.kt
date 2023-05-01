@@ -1,5 +1,7 @@
 package ml.sky233.choseki.util
 
+import android.os.Environment
+import ml.sky233.choseki.application.MainApplication.Companion.context
 import java.io.File
 import java.io.FileInputStream
 import java.io.FileOutputStream
@@ -116,6 +118,14 @@ object FileUtils {
             e.printStackTrace()
         }
         return res
+    }
+
+    fun getDataPath(): String {
+        return "${context.getExternalFilesDir(null)}"
+    }
+
+    fun getPackagePath(str: String = ""): String {
+        return "${context.getExternalFilesDir(null)}${File.separator}package${File.separator}${str}"
     }
 }
 
